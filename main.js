@@ -24,8 +24,8 @@ function setFontColor(style){
 
 
 function setTheme(){
-    const mode = document.body;
-    mode.classList.toggle("theme");
+    const back = document.body;
+    back.classList.toggle("theme");
 }
 
 //function setTheme() is defined to change the theme. 
