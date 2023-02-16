@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Console Controller</title>
+</head>
+<body>
+    <!--creates a box for styling purposes--> 
+    <div class="wrapper">
+    <!--creates the user account container--> 
+    <div class="container">
+        <header class="course-header">
+            <div id="account">
+                <div id="loginUser"></div>
+                <img id="loginIcon" src="images/user.png" alt="account">
+            </div> 
+        </header>
+    </div>
+    <!--creates the navigation list--> 
+    <div class="main-nav">
+        <nav id="list" class="main-items">
+            <a class="item" href="#">All</a>
+            <a class="item" href="#">Course Winter 2023</a>
+            <a class="item" href="#">Course Summer 2023</a>
+        </nav>
+    </div>
+     <!--creates main content info--> 
+        <div class="main-content" >
+        <div class="text-infopost">
+          <h1 id="heading" class="main-title">Our programs and courses</h1>
+          <button class="btn" onclick="setTitle()">Discover your Program</button>
+          <p class="lead my-3">JavaScript is the scripting language of the web and one of the most widely used programming languages today.</p>
+          <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+        </div>
+        <button id="darkTheme" class="theme" type="button">Dark</button>
+      </div>
+    <!--creates course container--> 
+    <main id="courseContainer">
+    <!--creates cards courses--> 
+    <div class="card-w">
+        <div class="text">
+            <h2>2023 Winter</h2>
+            <div class="date">January - April 2023</div>
+            <p class="card-text">Programs at Algonquin College are delivered using a variety of instruction modes. Courses may be offered in the classroom or lab, entirely online, or in a hybrid mode which combines classroom sessions with online learning activities...</p>
+            <p><a href="#">Read More</a></p>
+        </div>
+        <div class="card-img">
+            <h3>Thumbnail</h3>
+        </div>
+    </div>
+    <div class="card-s">
+        <div class="text">
+            <h2>2023 Spring - Summer</h2>
+            <div class="date">May - August 2023</div>
+            <p class="card-text">Programs at Algonquin College are delivered using a variety of instruction modes. Courses may be offered in the classroom or lab, entirely online, or in a hybrid mode which combines classroom sessions with online learning activities...</p>
+            <p><a href="#">Read More</a></p>
+        </div>
+        <div class="card-img">
+            <h3>Thumbnail</h3>
+        </div>
+    </div>
+    <div id="firstCard"> </div>
+    <div id="secondCard"></div>
+    </main>
+    </div> 
+    <footer>
+        <p> Aldana Arevalo 2023 - Interactive Media Design</p>
+      </footer>
+
+
+<script src="main.js"></script>
+</body>
+</html>
