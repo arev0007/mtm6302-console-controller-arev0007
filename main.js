@@ -1,16 +1,26 @@
-function setTitle(){
-    const title=document.getElementsByTagName("h1")[0];
-    title.innerHTML = "Interactive Media Design 01";
+
+function setTitle(heading){
+    const title = document.getElementById("title")
+    title.innerHTML = heading
 }
 
-// As getElementsByTagName method return elements with the given tag name, it will return a heading.
-// [0] selects the first h1 on the page.
-//title.innerHTML sets the text content of the selected h1
 
-//References: https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName
+function setDescription(info){
+    const content = document.getElementById("content")
+    content.innerHTML = info
+}
 
 
 
+function setBackground(color){
+    const back = document.getElementById("back")
+    back.style.backgroundColor = color
+}
+
+function setFontColor(style){
+    const back = document.getElementById("back")
+    back.style.color = style
+}
 
 
 function setTheme(){
