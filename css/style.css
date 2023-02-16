@@ -4,12 +4,12 @@ html{
 *,
 *:before,
 *:after{
-    box-sizing: inherit;
+box-sizing: inherit;
 }
 body{
     background-color: #fdfdfd;
-  
-  }
+
+}
 .wrapper{
     margin: 0 auto;
     padding-left:30px;
@@ -19,24 +19,24 @@ body{
     margin-right: 10px;
 
 }
-  h1, h2 {
+h1, h2 {
     font-family: 'Roboto', sans-serif;
-  }
-  .date, .card-text, a{
+}
+.date, .card-text, a{
     font-family: 'Quicksand', sans-serif;
-  }
+}
 
-  .main-title{
+.main-title{
     font-size: 2.5rem;
-  }
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
     .main-title {
-      font-size: 3rem;
-    }
+    font-size: 3rem;
+}
 }
 
 .course-header{
-    border-bottom: 2px solid #05300c;
+    border-bottom: 2px solid #157132;
 }
 
 .main-nav{
@@ -53,27 +53,27 @@ body{
     white-space: nowrap;
     justify-content: space-between;
 
-  }
+}
 
-  .item{
+.item{
     display: flex;
     text-align: center;
     padding: 15px 20px;
     font-weight: bold;
 
-  }
-  .main-content{
+}
+.main-content{
     padding:20px;
-  }
-  .info-post{
-   position: relative;
-  }
-  
-  .text-infopost{
+}
+.info-post{
+    position: relative;
+}
+
+.text-infopost{
     display: grid;
     justify-content: center;
-  }
-  .theme{
+}
+.theme{
     position: absolute;
     right: 100px;
     top: 20px;
@@ -81,6 +81,13 @@ body{
     color:#fdfdfd;
     padding:10px;
     border-radius:10px;
+}
+
+#dark{
+    background-color:#282727;
+    color:#fdfdfd;
+
+
   }
 
 #loginIcon{
@@ -88,14 +95,11 @@ body{
     padding-bottom: 10px;
 }
 
-
 #courseContainer{
     position: relative;
     padding: 30px;
     display: grid;
     grid-template-columns: auto auto;
-  
-
 }
 
 .text{
@@ -104,19 +108,23 @@ body{
     padding: 10px; 
 }
 
-.card-text{
+#card-text{
     text-align:justify ;
+    text-decoration: none;
+   
 }
+
+
 .card-w, .card-s{
-display: block;
-flex-direction: row;
-padding: 20px;
+    display: block;
+    flex-direction: row;
+    padding: 20px;
 }
 
 .card-img{
-width: 500px;
-height: 250px;
-background-color: #adaaaa;
+    width: 500px;
+    height: 250px;
+    background-color: #adaaaa;
 }
 
 .card-img h3{
@@ -131,9 +139,14 @@ footer{
 }
 
 .btn{
-    width: 150px;
+    width: 180px;
     background-color: crimson;
     border:none;
     border-radius: 20px;
+    padding: 10px;
+}
+
+a{
+    color:#1da448;
 }
 

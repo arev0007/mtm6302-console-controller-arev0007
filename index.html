@@ -40,11 +40,15 @@
         <div class="text-infopost">
           <h1 id="heading" class="main-title">Our programs and courses</h1>
           <button class="btn" onclick="setTitle()">Discover your Program</button>
-          <p class="lead my-3">JavaScript is the scripting language of the web and one of the most widely used programming languages today.</p>
-          <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+          <p class="info">JavaScript is the scripting language of the web and one of the most widely used programming languages today.</p>
+          <p class="info" ><a href="#" onclick="setDescription()" >Continue reading...</a></p>
         </div>
-        <button id="darkTheme" class="theme" type="button">Dark</button>
+        <div id="controls">
+        <button id="dark" class="theme" onclick="setTheme()" type="button">Dark</button>
+        <div id="white" class="theme-wh" type="button"></div>
+        </div>
       </div>
+       
     <!--creates course container--> 
     <main id="courseContainer">
     <!--creates cards courses--> 
@@ -52,7 +56,7 @@
         <div class="text">
             <h2>2023 Winter</h2>
             <div class="date">January - April 2023</div>
-            <p class="card-text">Programs at Algonquin College are delivered using a variety of instruction modes. Courses may be offered in the classroom or lab, entirely online, or in a hybrid mode which combines classroom sessions with online learning activities...</p>
+            <p id="card-text" class="info">Programs at Algonquin College are delivered using a variety of instruction modes. Courses may be offered in the classroom or lab, entirely online, or in a hybrid mode which combines classroom sessions with online learning activities...</p>
             <p><a href="#">Read More</a></p>
         </div>
         <div class="card-img">
@@ -63,15 +67,14 @@
         <div class="text">
             <h2>2023 Spring - Summer</h2>
             <div class="date">May - August 2023</div>
-            <p class="card-text">Programs at Algonquin College are delivered using a variety of instruction modes. Courses may be offered in the classroom or lab, entirely online, or in a hybrid mode which combines classroom sessions with online learning activities...</p>
+            <p id="card-text" class="info">Programs at Algonquin College are delivered using a variety of instruction modes. Courses may be offered in the classroom or lab, entirely online, or in a hybrid mode which combines classroom sessions with online learning activities...</p>
             <p><a href="#">Read More</a></p>
         </div>
         <div class="card-img">
             <h3>Thumbnail</h3>
         </div>
     </div>
-    <div id="firstCard"> </div>
-    <div id="secondCard"></div>
+    
     </main>
     </div> 
     <footer>
